@@ -1,3 +1,4 @@
+// exercise 1
 var num1,num2;
 num1=+prompt("plese enter num 1:");
 num2=+prompt("plese enter num 2:");
@@ -12,7 +13,18 @@ else
 {
     alert("num 2 biiger")
 }5
-// 
+// exercise 2
+var age
+age= prompt("plese enter age:")
+if(age>=17)
+{
+    alert("אתה רשאי להוציא רשיון נהיגה")
+}
+else
+{
+    alert(17-age +"שנים"+  "  גילך צעיר מדי חזור בעוד")
+}
+// exercise 3
 var sacsess
 sacsess=prompt("plese enter sacsess:")
 if(sacsess>=60)
@@ -23,7 +35,7 @@ else
 {
     alert("נכשל")
 }
-// 
+// exercise 4
 var num
 num=+prompt("plese enter num :");
 if(num>0)
@@ -38,7 +50,7 @@ else
 {
     alert("אפס")
 }
-// 
+//  exercise 5
 var num
 num=prompt("plese enter num :");
 if(num<0)
@@ -58,13 +70,11 @@ else if(num>=101 && num<=1000)
 {
     alert("המספר גדול מ-100")
 }
-
-
 else
 {
     alert("המספר גדול מ1000")
 }
-// 
+// exercise 6
 var Score
 Score=prompt("plese enter Score :");
 if(Score<=59)
@@ -93,15 +103,21 @@ else
 {
     alert("מעולה")
 }
-// 
-var age
-age= prompt("plese enter age:")
-if(age>=17)
+
+// exercise 7
+var num1,num2,num3;
+num1=prompt("plese enter num1");
+num2=prompt("plese enter num2");
+num3=prompt("plese enter num3");
+if(num1>num2 && num2>num3)
 {
-    alert("אתה רשאי להוציא רשיון נהיגה")
+ alert(num1 +" " +"הגדול ביותר")
+}
+else if(num2>num3)
+{
+    alert(num2 +" " + "הגדול ביותר " )
 }
 else
 {
-    alert("גילך צעיר מדי")
+ alert(num3 +" " + "הגדול ביותר ")
 }
-
